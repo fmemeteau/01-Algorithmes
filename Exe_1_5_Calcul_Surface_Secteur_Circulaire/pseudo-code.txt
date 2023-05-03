@@ -1,0 +1,23 @@
+﻿Lire le rayon R d'un cercle et un angle A (en degré(s)).
+
+Calculer et afficher :
+- l'aire du secteur circulaire = (PI * rayon² * A) / 360
+
+
+VARIABLES
+	rayon est un double
+	angle est un double
+	aire est un double
+
+TRAITEMENT
+	ECRIRE "Veuillez donner le rayon du cercle."
+	LIRE
+
+	ECRIRE "Veuillez donner l'angle à l'intérieur du cercle."
+	LIRE
+	
+	aire = (PI * rayon² * A) / 360
+
+	ECRIRE "L'aire du secteur circulaire est" + aire + "."
+
+FIN PROGRAMME

@@ -1,0 +1,28 @@
+﻿Lire 2 nombres entier A et B puis afficher tous les nombres entier de l'intervalle.
+
+VARIABLES
+	A est un entier
+	B est un entier
+
+TRAITEMENT
+	ECRIRE "Veuillez rentrer l'entier A"
+	LIRE A
+
+	ECRIRE "Veuillez rentrer l'entier B"
+	LIRE B
+
+	SI A != B
+		TANT QUE A != B - 1
+			Incrémenter A
+			ECRIRE A
+
+		TANT QUE A > B + 1
+			Décrémenter A
+			ECRIRE A
+
+	ELSE 
+		ECRIRE "A est égal à B"
+
+
+FIN DU PROGRAMME
+

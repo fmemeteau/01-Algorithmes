@@ -1,0 +1,21 @@
+﻿Lire le rayon R d'une sphère puis calculer et afficher :
+- son aire = 4 * 3,14 * R²
+- son volume = (4 * 3,14 * R³) / 3
+
+
+VARIABLES
+	rayon est un double
+	aire est un double
+	volume est un double
+
+TRAITEMENT
+	ECRIRE "Veuillez donner le rayon de la sphère en cm"
+	LIRE rayon
+
+	aire <-- 4 * 3,14 * rayon²
+	volume <-- 4/3 * 3,14 * rayon³
+
+	ECRIRE "Le rayon de la sphère est " + aire + "et son volume est " + volume + "."
+
+FIN PROGRAMME
+

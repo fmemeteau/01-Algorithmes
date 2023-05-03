@@ -1,0 +1,21 @@
+﻿Barnabé fait ses courses dans plusieurs magasins.
+Dans chacun, il dépense 1€ de plus que la moitié de ce qu'il possédait en entrant.
+Dans le dernier magasin, il dépense le solde.
+Barnabé dépense au moins 1€ dans chaque magasin.
+
+
+VARIABLES
+	money est un double
+	shops est un entier
+
+
+TRAITEMENT
+	TANT QUE (money / 2 + 1) > 2 FAIRE
+		money = money / 2 + 1
+		Incrémenter shops
+
+	FIN TANT QUE
+	money = 0
+	ECRIRE shops
+
+FIN DU PROGRAMME

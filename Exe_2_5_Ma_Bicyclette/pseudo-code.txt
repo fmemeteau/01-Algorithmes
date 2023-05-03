@@ -1,0 +1,15 @@
+﻿S'il fait beau demain -> balade à bicyclette
+
+	Je ne l'ai pas utilisée depuis plusieurs mois, peut-être n'est-elle plus fonctionnelle.
+	Si c'est le cas, je passerai chez le garagiste avant la balade. J'espère que les réparations seront immédiates sinon je devrai renoncer à la balade en bicyclette.
+	Comme je veux profiter du beau temps, s'il n'est pas utilisable, j'irai à pied jusqu'à l'étang pour cueillir les jongs.
+
+S'il ne fait pas beau demain -> journée lecture
+	
+	Relecture du 1er tome de Game of Thrones. Je pense le posséder, il doit être dans la bibliothèque.
+	Sinon, j'irai l'emprunter à la bibliothèque. Si le livre n'est pas disponible, j'emprunterai un roman policier.
+	Je rentrerai directement à la maison.
+	Dès que j'ai le livre qui me convient, lecture dans un fauteuil.
+
+	VOIR ALGORITHME 
+

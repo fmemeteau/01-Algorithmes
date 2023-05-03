@@ -1,0 +1,43 @@
+﻿1. L'ordinateur choisit aléatoirement un nombre mystère compris entre 0 et 100.
+2. Le joueur essaie de le deviner.
+
+Lors de chaque essaie, l'ordinateur affiche la fourchette dans laquelle se trouve le nombre qu'il a choisi.
+Le choix du nombre mystère est simulé par génération d'un nombre aléatoire : N <-- RANDOM(0,100).
+
+Lorsque l'utilisateur a trouvé le nombre mystère, le programme affiche ;
+	"Bravo, vous avez trouvé en X essais".
+
+VARIABLES
+	N est un nombre aléatoire entre 0 et 100
+	number est un entier proposé par l'utilisateur
+	counter est un entier comptant le nombre d'essais
+	start est un entier
+	end est un entier
+
+
+TRAITEMENT
+	Création du nombre mystère
+
+	ECRIRE "Proposez un nombre entre 0 et 100"
+	LIRE number
+	INCREMENTER le compteur
+	
+	SI number = N ALORS
+		ECRIRE "Bravo, vous avez trouvé en " counter " essais."
+	
+	SINON
+		TANT QUE number != N
+			INCREMENTER le compteur
+		
+			SI 0 < number < 49 ALORS
+			start <-- number
+
+
+			ELSE 50 <= number <= 100
+			end <-- number
+
+	ECRIRE "Bravo, vous avez trouvé en " counter " essais."
+	
+	
+
+FIN DU PROGRAMME

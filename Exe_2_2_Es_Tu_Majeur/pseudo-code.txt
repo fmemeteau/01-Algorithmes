@@ -1,0 +1,22 @@
+﻿Lire un nombre A correspondant à un âge (en années).
+Afficher "Vous êtes majeur" ou "Vous êtes mineur".
+Si A est négatif, afficher "Vous n'êtes pas encore né".
+
+La majorité est de 18 ans.
+
+VARIABLES
+	A est un entier
+
+TRAITEMENT
+
+	ECRIRE "Veuillez donner votre âge, en années."
+	LIRE A
+
+	SI A > 0
+		SI A >= 18
+			ECRIRE "Vous êtes majeur"
+		SINON
+			ÊCRIRE "Vous êtes mineur"
+	SINON
+		ECRIRE "Vous n'êtes pas né"
+

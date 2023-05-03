@@ -1,0 +1,29 @@
+﻿Soit une chaîne de caractères terminée par le caractère ".".
+Donnez l'algorithme d'un programme qui compte le nombre d'occurrences d'une lettre donnée dans cette chaîne.
+Si la chaîne de caractère est vide ou n'est composée que de ".", le message "LA CHAINE EST VIDE" sera affiché.
+
+Proposer un jeu d'essai prévoyant les 3 cas suivants :
+ - La phrase est vide
+ - La lettre n'est pas présente
+ - La lettre est présente une ou plusieurs fois
+
+VARIABLES
+	sentence est la chaîne de caractères entrée par l'utilisateur
+	letter est la lettre dont on recherche les occurences
+
+TRAITEMENT
+	ECRIRE "Saisissez une phrase se terminant par un ".""
+	LIRE sentence
+
+	Si sentence != null ALORS
+		ECRIRE "Saisissez un caractère à rechercher"
+		LIRE letter
+		SI letter est dans sentence ALORS
+			ECRIRE "La lettre X se trouve Y fois dans la phrase"
+		SINON
+			ECRIRE "La lettre X ne se trouve pas dans la phrase"
+	
+	SINON
+		ECRIRE "LA CHAINE EST VIDE"
+
+FIN DU PROGRAMME

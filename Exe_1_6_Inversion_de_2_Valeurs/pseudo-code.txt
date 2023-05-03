@@ -1,0 +1,22 @@
+﻿VARIABLES
+
+	int A
+
+	int B
+
+	int C
+
+TRAITEMENT
+	ECRIRE A B
+
+	C <-- A
+
+	A <-- B
+
+	B <-- C
+
+	ECRIRE A B
+
+
+	
+FIN PROGRAMME

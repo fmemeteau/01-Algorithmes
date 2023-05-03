@@ -1,0 +1,17 @@
+﻿L'utilisateur est invité à saisir son prénom.
+Le programme affiche ensuite "Bonjour" suivi du prénom saisi.
+Le prénom doit contenir au moins 2 caractères.
+S'il en contient moins de 2, l'utilisateur doit recommencer la saisie.
+Il dispose d'un nombre d'essai illimité.
+
+VARIABLES
+	firstName est un entier de 2 caractères minimum
+
+TRAITEMENT
+	ECRIRE "Bonjour, veuillez saisir votre prénom (il doit consister en au moins 2 caractères) :"
+	LIRE firstName
+
+	TANT QUE
+		firstName < 2 caractères
+
+FIN PROGRAMME

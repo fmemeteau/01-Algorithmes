@@ -1,0 +1,21 @@
+﻿Lire 2 nombres entier A et B puis les afficher dans l'ordre croissant.
+
+VARIABLE
+	int A
+
+	int B
+
+TRAITEMENT
+
+	ECRIRE "Veuillez donner la valeur de l'entier A"
+	LIRE A
+
+	ECRIRE "Veuillez donner la valeur de l'entier B"
+	LIRE B
+
+	SI A < B
+	ECRIRE "A < B"
+
+	SINON
+	ECRIRE "B < A"
+FIN PROGRAMME

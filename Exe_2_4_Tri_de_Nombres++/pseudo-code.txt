@@ -1,0 +1,22 @@
+﻿Lire 3 nombres entier A, B et C et les afficher dans l'ordre croissant.
+
+VARIABLES
+	A est un entier
+	B est un entier
+	C est un entier
+
+TRAITEMENT
+ECRIRE "Bonjour, veuillez donner la valeur de A :"
+LIRE A
+
+ECRIRE "Bonjour, veuillez donner la valeur de B :"
+LIRE B
+
+ECRIRE "Bonjour, veuillez donner la valeur de C :"
+LIRE C
+
+TRIER A B et C en ordre décroissant
+
+AFFICHER A B et C en ordre décroissant
+
+FIN DU PROGRAMME

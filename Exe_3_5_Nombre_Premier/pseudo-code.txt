@@ -1,0 +1,23 @@
+﻿Lire un nombre N et déterminer s'il est un nombre premier.
+C-à-d s'il n'est divisible que par 1 et lui-même.
+
+VARIABLES
+	N est un entier
+	i est un entier de valeur 2
+TRAITEMENT
+	ECRIRE "Saisissez un nombre entier"
+	LIRE N
+
+	TANT QUE i < N
+		EFFECTUER N / i
+		SI reste = 0 && i != N
+			ECRIRE "Ce n'est pas un nombre premier"
+		SINON
+			ECRIRE "C'est un nombre premier"
+
+			
+	
+
+
+
+FIN DU PROGRAMME

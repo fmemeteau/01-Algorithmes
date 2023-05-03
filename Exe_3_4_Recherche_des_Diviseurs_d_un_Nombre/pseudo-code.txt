@@ -1,0 +1,20 @@
+﻿Lire un nombre entier et afficher tous ses diviseurs autre que 1 et lui-même.
+
+VARIABLES
+	N est un entier
+	i est un entier
+
+TRAITEMENT
+	ECRIRE "Nous allons afficher tous les diviseurs d'un nombre entier autres que 1 et lui-même."
+	ECRIRE Veuillez donner un nombre entier."
+	LIRE N
+
+	POUR i est égal à 0, ET TANT QU'i est inférieur à N
+		Incrémenter I
+		TANT QUE i < N
+			SI la division de N par i est égale à O
+				ECRIRE i
+
+
+
+FIN DU PROGRAMME

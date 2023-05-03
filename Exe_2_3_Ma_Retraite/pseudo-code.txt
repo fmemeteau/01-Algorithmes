@@ -1,0 +1,30 @@
+﻿Lire un nombre A correspondant à un âge (en années).
+Selon l'âge doné, afficher :
+	- Vous êtes à la retraite depuis X années
+	- Il vous reste X années avant la retraite
+	- C'est le moment de prendre sa retraite
+	- La valeur fournie n'est pas un âge valide
+
+
+VARIABLES
+	A est un entier
+	Retraite est un entier de valeur 60
+
+TRAITEMENT
+	ECRIRE "Bonjour, quel âge avez-vous ?"
+	LIRE A
+
+	SI A >= 0
+		SI A > Retraite
+		ECRIRE "Vous êtes à la retraite depuis " + A - Retraite + " ans."
+
+		SI A < Retraite
+		ECRIRE "Il vous reste " + Retraite - A + " ans avant la retraite."
+
+		SINON
+		ECRIRE "C'est le moment de prendre votre retraite !"
+
+	SINON
+	ECRIRE "La valeur donnée n'est pas un âge valide."
+
+FIN DU PROGRAMME
