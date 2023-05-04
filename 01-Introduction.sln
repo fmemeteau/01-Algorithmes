@@ -37,11 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exe_3_5_Nombre_Premier", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exe_3_6_Jeu_de_la_Fourchette", "Exe_3_6_Jeu_de_la_Fourchette\Exe_3_6_Jeu_de_la_Fourchette.csproj", "{4FB377F8-5FFB-4CAC-921B-D4E0E5D0D9B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe_3_7_Barnabé_fait_ses_Courses", "Exe_3_7_Barnabé_fait_ses_Courses\Exe_3_7_Barnabé_fait_ses_Courses.csproj", "{4C696C82-3C1B-468F-89F2-9890B562B29F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exe_3_7_Barnabé_fait_ses_Courses", "Exe_3_7_Barnabé_fait_ses_Courses\Exe_3_7_Barnabé_fait_ses_Courses.csproj", "{4C696C82-3C1B-468F-89F2-9890B562B29F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe_4_1_Rechercher_un_Nombre_dans_Tableau", "Exe_4_1\Exe_4_1_Rechercher_un_Nombre_dans_Tableau.csproj", "{B0374B6C-CDA6-4282-8673-4951BF046CC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exe_4_1_Rechercher_un_Nombre_dans_Tableau", "Exe_4_1\Exe_4_1_Rechercher_un_Nombre_dans_Tableau.csproj", "{B0374B6C-CDA6-4282-8673-4951BF046CC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe_4_2_Rechercher_une_Lettre_dans_Phrase", "Exe_4_2_Rechercher_une_Lettre_dans_Phrase\Exe_4_2_Rechercher_une_Lettre_dans_Phrase.csproj", "{580A5CF5-FAFB-4C9D-B86F-B253FF236E5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exe_4_2_Rechercher_une_Lettre_dans_Phrase", "Exe_4_2_Rechercher_une_Lettre_dans_Phrase\Exe_4_2_Rechercher_une_Lettre_dans_Phrase.csproj", "{580A5CF5-FAFB-4C9D-B86F-B253FF236E5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe_4_3_Dénombrer_les_Lettres_de_l_Alphabet_dans_Tableau", "Exe_4_3_Dénombrer_les_Lettres_de_l_ALphabet_dans_Tableau\Exe_4_3_Dénombrer_les_Lettres_de_l_Alphabet_dans_Tableau.csproj", "{FCD1EFAD-FFAB-406E-8469-5B4E57FE3ED2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{580A5CF5-FAFB-4C9D-B86F-B253FF236E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{580A5CF5-FAFB-4C9D-B86F-B253FF236E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{580A5CF5-FAFB-4C9D-B86F-B253FF236E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD1EFAD-FFAB-406E-8469-5B4E57FE3ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD1EFAD-FFAB-406E-8469-5B4E57FE3ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD1EFAD-FFAB-406E-8469-5B4E57FE3ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD1EFAD-FFAB-406E-8469-5B4E57FE3ED2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

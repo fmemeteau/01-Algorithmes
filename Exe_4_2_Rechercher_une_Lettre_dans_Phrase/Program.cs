@@ -11,33 +11,40 @@
             Console.WriteLine("Saisissez une phrase se terminant par un '.'");
             sentence = Console.ReadLine();
 
-            sentenceLowered = sentence.ToLower();
-
-            if(sentence.Length == 0 || (sentence.Length == 1 && sentence.Contains(".")) )
+            if (sentence.EndsWith("."))
             {
-                Console.WriteLine("LA CHAINE EST VIDE");
-            }
-            else
-            {
-                Console.WriteLine("Saisissez une lettre à rechercher :");
-                letterToSearch = char.Parse(Console.ReadLine());
+                sentenceLowered = sentence.ToLower();
 
-
-                if(sentenceLowered.Contains(letterToSearch))
+                if (sentence.Length == 0 || (sentence.Length == 1 && sentence.Contains(".")))
                 {
-                    foreach (char letter in sentenceLowered)
-                    {
-                        if (letter == letterToSearch)
-                        {
-                            letterOccurrences++;
-                        }
-                    }
-                    Console.WriteLine("La phrase '{0}' contient {1} fois la lettre {2}", sentence, letterOccurrences, letterToSearch);
+                    Console.WriteLine("LA CHAINE EST VIDE");
                 }
                 else
                 {
-                    Console.WriteLine("La lettre {0} n'est pas présente !", letterToSearch);
+                    Console.WriteLine("Saisissez une lettre à rechercher :");
+                    letterToSearch = char.Parse(Console.ReadLine());
+
+
+                    if (sentenceLowered.Contains(letterToSearch))
+                    {
+                        foreach (char letter in sentenceLowered)
+                        {
+                            if (letter == letterToSearch)
+                            {
+                                letterOccurrences++;
+                            }
+                        }
+                        Console.WriteLine("La phrase '{0}' contient {1} fois la lettre {2}", sentence, letterOccurrences, letterToSearch);
+                    }
+                    else
+                    {
+                        Console.WriteLine("La lettre {0} n'est pas présente !", letterToSearch);
+                    }
                 }
+            }
+            else
+            {
+                Console.WriteLine("Votre phrase ne finit pas par un '.'");
             }
 
 
