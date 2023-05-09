@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exe_4_2_Rechercher_une_Lett
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe_4_3_Dénombrer_les_Lettres_de_l_Alphabet_dans_Tableau", "Exe_4_3_Dénombrer_les_Lettres_de_l_ALphabet_dans_Tableau\Exe_4_3_Dénombrer_les_Lettres_de_l_Alphabet_dans_Tableau.csproj", "{FCD1EFAD-FFAB-406E-8469-5B4E57FE3ED2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe_4_4_Tri_Tableau", "Exe_4_4_Tri_Tableau\Exe_4_4_Tri_Tableau.csproj", "{5AEEC2AD-518C-423A-B8AF-3BAC35CDBF48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{FCD1EFAD-FFAB-406E-8469-5B4E57FE3ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCD1EFAD-FFAB-406E-8469-5B4E57FE3ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCD1EFAD-FFAB-406E-8469-5B4E57FE3ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEEC2AD-518C-423A-B8AF-3BAC35CDBF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEEC2AD-518C-423A-B8AF-3BAC35CDBF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEEC2AD-518C-423A-B8AF-3BAC35CDBF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AEEC2AD-518C-423A-B8AF-3BAC35CDBF48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
