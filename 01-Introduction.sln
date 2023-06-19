@@ -49,13 +49,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exe_4_4_Tri_Tableau", "Exe_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exe_4_5_Palindrome", "Exe_4_5_Palindrome\Exe_4_5_Palindrome.csproj", "{0AF617C3-923E-4720-A6D3-D32B6F482B2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe_5_1_Calcul_des_Nombres_Parfaits", "Exe_5_1_Calcul_des_Nombres_Parfaits\Exe_5_1_Calcul_des_Nombres_Parfaits.csproj", "{AA88B2CF-726D-41AA-B57D-14BBCAAE7175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exe_5_1_Calcul_des_Nombres_Parfaits", "Exe_5_1_Calcul_des_Nombres_Parfaits\Exe_5_1_Calcul_des_Nombres_Parfaits.csproj", "{AA88B2CF-726D-41AA-B57D-14BBCAAE7175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe_5_2_1_Conversion_Kilometres_Miles", "Exe_5_2_1_Conversion_Kilometres_Miles\Exe_5_2_1_Conversion_Kilometres_Miles.csproj", "{3EF69C98-B6DB-478C-B641-0498EFA4AA1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exe_5_2_1_Conversion_Kilometres_Miles", "Exe_5_2_1_Conversion_Kilometres_Miles\Exe_5_2_1_Conversion_Kilometres_Miles.csproj", "{3EF69C98-B6DB-478C-B641-0498EFA4AA1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe_5_2_2_Conversion_Kilometres_Miles", "Exe_5_2_2_Conversion_Kilometres_Miles\Exe_5_2_2_Conversion_Kilometres_Miles.csproj", "{262746AD-652D-4704-B98D-E1658246E8BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exe_5_2_2_Conversion_Kilometres_Miles", "Exe_5_2_2_Conversion_Kilometres_Miles\Exe_5_2_2_Conversion_Kilometres_Miles.csproj", "{262746AD-652D-4704-B98D-E1658246E8BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe_5_3_Conversion_Fahrenheit_Celsius", "Exe_5_3_Conversion_Fahrenheit_Celsius\Exe_5_3_Conversion_Fahrenheit_Celsius.csproj", "{1F7563A4-B153-4B75-AF44-9E4E2654F233}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exe_5_3_Conversion_Fahrenheit_Celsius", "Exe_5_3_Conversion_Fahrenheit_Celsius\Exe_5_3_Conversion_Fahrenheit_Celsius.csproj", "{1F7563A4-B153-4B75-AF44-9E4E2654F233}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exe_Jeu_du_Pendu", "Exe_Jeu_du_Pendu\Exe_Jeu_du_Pendu.csproj", "{A5702B66-6374-4DBE-A17B-742D7595D47B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe_6_1_Les_Fruits_et_Légumes", "Exe_6_1_Les_Fruits_et_Légumes\Exe_6_1_Les_Fruits_et_Légumes.csproj", "{592C973F-6D88-476D-990B-D20B9BF06403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe_6_2_Jeu_du_0_2", "Exe_6_2_Jeu_du_0_2\Exe_6_2_Jeu_du_0_2.csproj", "{1071236C-49C3-48D6-B24B-DE7DF44E029C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +177,18 @@ Global
 		{1F7563A4-B153-4B75-AF44-9E4E2654F233}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F7563A4-B153-4B75-AF44-9E4E2654F233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F7563A4-B153-4B75-AF44-9E4E2654F233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5702B66-6374-4DBE-A17B-742D7595D47B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5702B66-6374-4DBE-A17B-742D7595D47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5702B66-6374-4DBE-A17B-742D7595D47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5702B66-6374-4DBE-A17B-742D7595D47B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{592C973F-6D88-476D-990B-D20B9BF06403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592C973F-6D88-476D-990B-D20B9BF06403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592C973F-6D88-476D-990B-D20B9BF06403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592C973F-6D88-476D-990B-D20B9BF06403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1071236C-49C3-48D6-B24B-DE7DF44E029C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1071236C-49C3-48D6-B24B-DE7DF44E029C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1071236C-49C3-48D6-B24B-DE7DF44E029C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1071236C-49C3-48D6-B24B-DE7DF44E029C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

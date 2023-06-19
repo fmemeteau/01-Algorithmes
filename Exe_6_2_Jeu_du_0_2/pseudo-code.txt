@@ -1,0 +1,45 @@
+﻿A tour de rôle, l'ordinateur et le joueur choisissent un nombre qui ne peut prendre que 3 valeurs : 0, 1 ou 2.
+Le choix du nombre par l'ordinateur sera simulé par génération d'un nombre aléatoire.
+
+Si la différence entre les nombres choisis vaut :
+ - 2 : le joueur qui a proposé le plus grand nombre gagne un point
+ - 1 : le joueur qui a proposé le plus petit nombre gagne un point
+ - 0 : aucun point n'est marqué
+
+ Le jeu se termine quand un des deux joueurs (l'ordinateur ou joueur humain) totalise 10 points ou quand l'être humain introduit un nombre négatif qui indique sa volonté d'arrêter de jouer.
+ Dans les 2 cas, afficher les scores.
+
+
+
+
+
+VARIABLES
+	score est un int
+	score1 est un int
+	score2 est un int
+	number1 est un int
+	number2 est un int
+
+TRAITEMENT
+	GENERER number2 (le score de l'ordinateur)
+	ECRIRE "Saisissez un nombre entre 0 et 2"
+	LIRE number1
+	SI
+		la différence entre number1 et number2 = 2
+	ALORS
+		le joueur ayant le nombre le plus élevé incrémente son score
+	SINON SI
+		la différente entre number1 et number2 = 1
+	ALORS
+		le joueur ayant le nombre le moins élevé incrémente son score
+	SINON SI
+		number1 = number2
+	ALORS
+		aucun score n'est incrémenté
+	SINON SI
+		number1 est une valeur négative ou que score1 ou score2 = 10
+	ALORS
+		afficher les scores
+
+
+ FIN DU PROGRAMME
