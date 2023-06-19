@@ -1,0 +1,16 @@
+﻿Soit X une valeur à convertir.
+	- F° vers C° => C° = (X - 32) * 5/9
+	- C° vers F° => F° = (X 9/5) + 32
+L'utilisateur saisit une valeur numérique comprise entre -459,67 et 5 000 000 suivi de l'unité de températeur : C pour Celsuis et F pour Fahrenheit.
+La valeur et l'unité de température sont séparés par un espace.
+Si la valeur est hors limite, l'utilisateur est invité à saisir une nouvelle valeur.
+Le programme affiche le résultat de la conversion sous forme de nombre réel double précision.
+Pour info, le zéro absolu correspond à -459,67 F° et -273,15 C°.
+
+
+VARIABLES
+	
+
+TRAITEMENT
+
+FIN DU PROGRAMME

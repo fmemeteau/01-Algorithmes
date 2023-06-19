@@ -3,15 +3,22 @@ Compter et afficher le nombre d'occurences de chacune des lettres de l'alphabet.
 
 VARIABLES
 	text contient le texte à vérifier
-	alphabet est un string contenant les 26 lettres de l'alphabet aisi que les accents en lowercase
-	alphabetUp est un string contenant les 26 lettres de l'alphabet en uppercase
+	alphabet est un string contenant les 26 lettres de l'alphabet en lowercase	
+	occurrences est un entier comptant le nombre d'occurrences d'une lettre
 
 
 TRAITEMENT
-	SPLIT les ' ', ',', ''', '.' dans le texte et attribuer ce nouveau texte dans text
-	POUR CHAQUE lettre dans le texte
-		COMPARER la lettre avec l'un des caractères des 2 alphabets
+	CONVERTIR le texte en lowercase
+	
+	COMPARER la lettre de l'alphabet à la lettre du texte
+	SI lettre = text ALORS
+		occurrences++
 
+	QUAND fin du text
+		ECRIRE lettre de l'alphabet ainsi que nombre d'occurrences
+	
+	COMPARER la lettre suivante de l'alphabet avec le texte
+	...
 
 
 FIN DU PROGRAMME
